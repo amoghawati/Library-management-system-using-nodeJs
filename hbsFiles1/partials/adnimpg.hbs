@@ -1,0 +1,24 @@
+<section>
+    <div class="booklist">
+        <h1>Books </h1>
+        <div class="books">
+            {{#each books}}
+            <div class="book">
+                <img src={{this.thumbnailUrl}} width="300px" alt="">
+                <h1>Title:{{this.title}} </h1>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+    <div class="userlist">
+        <h1>users </h1>
+        <div class="users">
+            {{#each users}}
+            <div class="user">
+                <h2>Name:{{this.name}} </h2>
+                <h4>Id:{{this.id}} </h4>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</section>

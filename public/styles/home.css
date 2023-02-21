@@ -1,0 +1,45 @@
+.homep{
+    padding-top: 50px;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 460px;
+    width: 400px;
+    height: 200px;
+    background-color: rgba(104, 47, 47, 0.705);
+}
+.logins{
+    display: flex;
+    margin-left: 60px;
+}
+.logins a{
+    text-decoration: none;
+ color: black; 
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    margin-left: 25px;
+}
+.logins a:hover{
+    background-color: black;
+    color: white;
+}
+.admin h1,.userlist h1,.booklist h1{
+    margin-left: 20px;
+}
+.users,.books{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.user,.book{
+    width: 300px;
+    border: 1px solid rgb(177, 175, 175);
+    margin-left: 20px;
+    margin-top: 10px;
+    box-shadow: 10px 10px 10px gainsboro;
+}
+.up,.ap{
+    text-align: center;
+}
